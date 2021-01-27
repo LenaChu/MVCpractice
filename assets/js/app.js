@@ -106,7 +106,7 @@ const Controller = ((model, view) => {
           const searchResult = document.getElementById(
             view.domString.searchResult
           );
-          searchResult.innerHTML = `Find ${state.results} albums of ${name}`;
+          searchResult.innerHTML = `Found ${state.results} albums of ${name}`;
         });
       }
       searchInputEle.value = "";
