@@ -124,3 +124,18 @@ img.album-cover {
   width: auto;
   height: auto;
 }
+
+@media only screen (max-device-width: 1024px) {
+  section#album-gallery {
+    padding: 70px 5vw;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    row-gap: 30px;
+  }
+}
+
+@media only screen (max-device-width: 768px) {
+  section#album-gallery {
+    padding: 70px 3vw;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
