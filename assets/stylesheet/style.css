@@ -125,7 +125,7 @@ img.album-cover {
   height: auto;
 }
 
-@media only screen (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
   section#album-gallery {
     padding: 70px 5vw;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -133,7 +133,7 @@ img.album-cover {
   }
 }
 
-@media only screen (max-device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   section#album-gallery {
     padding: 70px 3vw;
     grid-template-columns: repeat(4, minmax(0, 1fr));
